@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Web</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="Style.css"> 
+</head>
+<body>
+  
+ <!-- Barra de navegación -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mx-3 ">  <!-- Imagen de perfil -->
+  <a class="navbar-brand d-lg-none" href="#">
+    <img src="imagenes/Civil-309.jpg" alt="Foto en la barra de navegación" class="rounded-circle">
+  </a>
+  <!-- Texto de la marca -->
+ 
+    <span class="navbar-brand d-lg-none text-white-50 form-control-sm" >ENZO HEREDIA</span>
+
+  <!-- Foto en la barra de navegación -->
+  <img src="imagenes/Civil-309.jpg" alt="Foto en la barra de navegación" class="d-none d-lg-block rounded-circle" style="width: 150px; height: 150px; margin: 20px   auto 0;">
+  <!-- Botón de hamburguesa para pantallas pequeñas -->
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!-- Menú de navegación -->
+  <div class="collapse navbar-collapse" id="navbarNav" >
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active text-danger" href="#inicio">INICIO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-danger m-3" href="#sobre-mi">SOBRE MI</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-danger m-3" href="#portafolio">PORTAFOLIO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-danger m-3" href="#educacion">EDUCACION</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-danger m-3" href="#skills">SKILLS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-danger m-3" href="#contacto">CONTACTO</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+ 
+  <div class="container" style="margin-left: 200px;"> 
+    <section id="inicio" class="py-5">
+      <div class="container">
+        <h1 class="mb-0 display-1 ">ENZO 
+          <Span class="text-danger">HEREDIA</Span>
+      </h1>
+        <p class="text-white mb-4 text-lg display-6">Bienvenidos/as a mi portafolio como desarrolador Front End 
+          <br> 
+          <br>
+          Si quieres ponerte en contacto conmigo escribime a: 
+          <a href="mailto:enzoarielheredia@gmail.com" class="text-danger h-25 mb-4 display-6" style="font-size: x-large;">Enzoarielheredia@gmail.com</a> 
+        </p>
+          <br>
+          <p class="text-white mb-4 ">Tambien podes descargar mi Curriculum para mas informacion.</p>
+        <a  href="Enzo Heredia CV.pdf" download class="btn btn-danger text-white btn-lg m-4 ">Descargar mi CV</a>
+        <br>
+        <br>
+        <p class="text-white mb-4">O visitar algunas de mis redes sociales.</p>
+        <div class="icons m-1">
+          <a href="#" class="btn btn-primary btn-lg" style="background-color: #0077B5; border: none;">LinkedIn <i class="bi bi-linkedin" style="margin-left: 5px;"></i></a>
+          <a href="#" class="btn btn-primary mx-3 btn-lg" style="background-color: #181717; border: none;">Git Hub<i class="bi bi-github" style="margin-left: 5px;"></i></a>
+          <a href="#" class="btn btn-primary mx-3 btn-lg" style="background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045); border: none;">Instagram<i class="bi bi-instagram" style="margin-left: 5px;"></i></a>
+        </div>
+      </div>
+    </section>
+    <hr class="text-white">
+  
+    <section id="sobre-mi" class="py-5">
+      <div class="container">
+        <h2 class="mb-4 display-1">SOBRE MI</h2>
+        <p class="text-white">Empece mi trayectoria profesional como Profesor de Educacion fisica hace 6 años. Hace un año por temas laboral, entre al rubro de la Programacion, gustandome y atrapandome mucho </p>  
+          <br>
+          <p class="text-danger1"> ACTUALMENTE ESTUDIO Y BUSCO AMPLIAR MI CAMPO LABORAL EN EL MUNDO DEL DESARROLLO WEB</p>
+          <br>
+        <p class="text-white">Actualmente estoy realizando cursos relacionados a Desarrollo Front End, con el fin de mejorar y crecer como profesional.</p>      
+    
+      </div>
+    </section>
+    <hr class="text-white">
+    <section id="portafolio" class="py-5">
+      <div class="container">
+        <h2 class="mb-0 display-1">Portafolio</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card" style="max-width: 18rem;">
+              <img src="imagenes/p.jpg" class="card-img-top img-fluid" alt="imagen1" style="max-width: 100%; height: auto;">
+              <div class="card-body" class="list-group-item d-flex justify-content-between align-items-center mb-3 text-white" style="background-color: #ed1c23c4;">
+                <h5 class="card-title">Proyecto 1</h5>
+                <p class="card-text">Descripción del proyecto.</p>
+                <a href="#" class="btn btn-dark">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card" style="max-width: 18rem;">
+              <img src="imagenes/p.jpg" class="card-img-top img-fluid" alt="imagen2" style="max-width: 100%; height: auto;">
+              <div class="card-body" class="list-group-item d-flex justify-content-between align-items-center mb-3 text-white" style="background-color: #ed1c23c4;">
+                <h5 class="card-title">Proyecto 2</h5>
+                <p class="card-text">Descripción del proyecto.</p>
+                <a href="#" class="btn btn-dark">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card" style="max-width: 18rem;">
+              <img src="imagenes/p.jpg" class="card-img-top img-fluid" alt="imagen3" style="max-width: 100%; height: auto;">
+              <div class="card-body" class="list-group-item d-flex justify-content-between align-items-center mb-3 text-white" style="background-color: #ed1c23c4;">
+                <h5 class="card-title">Proyecto 3</h5>
+                <p class="card-text">Descripción del proyecto.</p>
+                <a href="#" class="btn btn-dark btn-">Ver más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <hr class="text-white">
+ 
+    <section id="educacion" class="py-5">
+      <div class="container">
+        <h2 class="mb-5 display-1">EDUCACION</h2>
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between align-items-center mb-3 text-white" style="background-color: #ed1c23bc;">           
+             UDEMY, Universidad CSS - Aprendiendo desde cero hasta Experto  Curso de 7.5 horas
+             <button popovertarget="mostrar" class="btn btn-dark " >Ver Certificado</button>
+            <div id="mostrar" popover>
+              <img src="./imagenes/certificado css ubaldo.jpg" alt="img">
+            </div>  
+          </li>
+       
+        </ul>
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between align-items-center mb-3 text-white" style="background-color: #ed1c23bc;">
+              UDEMY, Universidad JavaScript - De Cero a Experto JavaScript!   Curso de 16.5 horas
+              <button popovertarget="mostrar" class="btn btn-dark " >Ver Certificado</button>
+              <div id="mostrar" popover>
+                <img src="./imagenes/certificado javascript ubaldo.jpg"  alt="img">
+              </div>  
+          </li>
+        </ul>
+        </ul>
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between align-items-center mb-3 text-white" style="background-color: #ed1c23bc;">           
+             UTN.BA|Centro de e-Learning - Desarrollo Web en Html5 y Css3  Curso de 67 horas
+             <button popovertarget="mostrar" class="btn btn-dark " >Ver Certificado</button>
+             <div id="mostrar" popover>
+               <img src="./imagenes/Certificados (1).jpg" alt="img">
+             </div>  
+          </li>
+  
+        </ul>
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between align-items-center mb-3 text-white" style="background-color: #ed1c23bc;">
+            UTN.BA|Centro de e-Learning - Desarrollo web con Javascritp  Curso de 67 horas
+            <button popovertarget="mostrar" class="btn btn-dark " >Ver Certificado</button>
+            <div id="mostrar" popover>
+              <img src="./imagenes/Certificados javascript utn.jpg" alt="img">
+            </div>  
+
+          </li>
+          
+        </ul>
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between align-items-center mb-3 text-white" style="background-color: #ed1c23bc;">            
+            UTN.BA|Centro de e-Learning - Desarrollo web en HTML 5, CSS3 y Javascript (Nivel Avanzado)  Curso de 67 horas 
+            <button popovertarget="mostrar" class="btn btn-dark " >Ver Certificado</button>
+            <div id="mostrar" popover>
+              <img src="./imagenes/Certificados avanzado.jpg" alt="img">
+            </div>  
+          </li>
+          
+        </ul>
+      </div>
+    </section>
+    <hr class="text-white">
+    <section id="skills" class="py-5">
+      <div class="container">
+        <h2 class="mb-0 display-1">SKILLS</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h4 class="text-white text-xl-start">LENGUAJE DE PROGRAMACION</h4>
+            <div class="icons">
+              <div class="icon-button" style="background: linear-gradient(to right, #FFD700, #FFA500);">
+                <i class="bi bi-filetype-js"></i>
+                <span>JavaScript</span>
+            </div>
+            
+            <div class="icons">
+              <div class="icon-button" style="background: linear-gradient(to right, #E44D26, #F16529);"              >
+                <i class="bi bi-filetype-html"></i>
+                <span>HTML5</span>
+            </div>
+            <div class="icons">
+              <div class="icon-button" style="background: linear-gradient(to right, #1565C0, #2980B9);              ">
+                <i class="bi bi-filetype-css"></i>
+                <span>CSS3</span>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h4 class="text-white text-xl-start">FRAMEWORKS</h4>
+            <div class="icons">
+              <div class="icon-button" style="background: linear-gradient(to right, #8A2BE2, #4B0082);">
+             <i class="bi bi-bootstrap"></i>          
+                <span>BOOTSTRAP</span>
+            </div>
+            <div class="col-md-6">
+              <h4 class="text-white text-xl-start">BIBLIOTECA</h4>
+              <div class="icons">
+                <div class="icon-button" style= "background: linear-gradient(135deg, #61DAFB 0%, #1E90FF 100%);">
+                  <i class="bi bi-filetype-jsx"></i>        
+                  <span>REACT.JS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="text-white">
+    <section id="contacto" class="py-5">
+      <div class="container">
+        <h2 class="mb-5 display-1">CONTACTO</h2>
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between align-items-center mb-3 text-white" style="background-color: #ed1c23bc;">Correo electrónico: Enzoarielheredia@gmail.com</li>
+          <li class="list-group-item d-flex justify-content-between align-items-center mb-3 text-white" style="background-color: #ed1c23bc;">LinkedIn: Enzo Ariel Heredia</li>
+        </ul>
+      </div>
+    </section>
+  </div> 
+  <footer class="footer" style="margin-left: 215px;">
+    <div class="container">
+      <div class="row" >
+        <div class="col-md-6">
+          <h3>Información de contacto</h3>
+          <p>Dirección: Provincia de Buenos Aires - Argentina</p>
+          <p>Teléfono: 55262932625</p>
+          <p>Email: Enzoarielheredia@gmail.com</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Seguime</h3>
+          <ul>
+            <li><a href="inicio">Facebook</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="#">X</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </footer>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="javascript.js"></script>
+ 
+</body>
+</html>

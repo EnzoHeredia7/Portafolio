@@ -1,0 +1,147 @@
+body {
+    background-color: #1F1F1F;
+    padding-top: 56px; /* Ajuste para evitar que el navbar cubra el contenido */
+  }
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.166) !important; /* Color de fondo */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+  }
+  .navbar-brand img {
+    width: 60px; /* Ancho de la imagen de perfil */
+    height: 60px; /* Altura de la imagen de perfil */
+    border-radius: 50%; /* Borde redondeado para la imagen de perfil */
+    margin-right: 10px; /* Espacio a la derecha de la imagen de perfil */
+    margin-top: 10px; /* Ajuste de margen superior para centrar verticalmente la imagen */
+  }
+  .navbar-toggler {
+    color: rgba(0,0,0,.5); /* Color del icono del botón de hamburguesa */
+  }
+  .navbar-nav .nav-link {
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+  }
+  @media (min-width: 992px) {
+    .navbar {
+      height: 100%;
+      width: 200px; /* Ancho del navbar lateral en pantallas grandes */
+      flex-direction: column; /* Cambiamos la dirección de los elementos del navbar a vertical */
+    }
+    .navbar-collapse {
+      display: none; /* Ocultamos el menú de navegación lateral en pantallas grandes */
+    }
+    .navbar-brand {
+      display: none; /* Ocultamos la imagen de perfil en pantallas grandes */
+    }
+    .navbar-toggler {
+      display: none; /* Ocultamos el botón de hamburguesa en pantallas grandes */
+    }
+    .navbar-expand-lg .navbar-nav {
+      flex-direction: column; /* Cambiamos la dirección de los elementos del menú de navegación a vertical en pantallas grandes */
+      height: 100;
+      width: 100%; /* Ancho del menú de navegación en pantallas grandes */
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+      text-align: center; /* Centramos el texto en pantallas grandes */
+    }
+  }
+  .rounded-circle {
+    border-radius: 50% !important;
+  }
+  section{
+    height: 650px;
+  }
+
+  h1{
+    color: white;
+
+  }
+  h2{
+    color: #ED1C24;
+ ;
+  }
+ 
+  
+  .text-danger.btn-btn-danger{
+    color: #ED1C24 !important;
+  }
+  .text-white{
+    font-size: x-large;
+  }
+  .text-danger1{
+    color: #ED1C24;
+    font-size: xx-large;
+  }
+
+.list-group-item, 
+.d-flex, 
+.justify-content-between, 
+.align-items-center, 
+.mb-3{
+    font-size: 15px;
+}
+
+.icon-button {
+    margin-bottom: 15px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.icon-button i {
+    display: inline-block;
+    width: 40px; /* Ajusta el tamaño del ícono */
+    height: 40px; /* Ajusta el tamaño del ícono */
+    font-size: 24px; /* Ajusta el tamaño del ícono */
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
+    text-align: center;
+    line-height: 40px; /* Centra verticalmente el ícono */
+}
+
+ 
+
+.footer {
+    background-color: #343a40; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 50px 0; /* Espaciado interno */
+    margin-top: 20px; /* Margen superior */
+  }
+
+  .footer h3 {
+    color: #fff; /* Color del título */
+  }
+
+  .footer p {
+    margin-bottom: 10px; /* Espaciado inferior */
+  }
+
+  .footer ul {
+    list-style: none; /* Eliminar viñetas de la lista */
+    padding: 0; /* Eliminar relleno de la lista */
+  }
+
+  .footer ul li {
+    margin-bottom: 10px; /* Espaciado entre elementos de la lista */
+  }
+
+  .footer ul li a {
+    color: #fff; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+  }
+
+  .footer ul li a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+  }
+
+ 
+  img{
+    display: block;
+    width: 700px;
+  }
+  [popover]::backdrop{
+    background-color: rgba(0,0,0,.8);
+  }
+
+  [popover]{
+    padding: 2rem;
+  }
